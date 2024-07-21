@@ -1,6 +1,6 @@
 module bidirectional where
 
--- plfa inference chapter
+-- plfa bidirectional inference chapter
 
 import Relation.Binary.PropositionalEquality as Eq
 open Eq using (_≡_; refl; sym; trans; cong; cong₂; _≢_)
@@ -10,7 +10,6 @@ open import Data.String using (String; _≟_)
 open import Data.Product using (_×_; ∃; ∃-syntax) renaming (_,_ to ⟨_,_⟩)
 open import Relation.Nullary using (¬_; Dec; yes; no)
 open import Relation.Nullary.Decidable using (False; toWitnessFalse)
-
 
 infix   4  _∋_⦂_
 infix   4  _⊢_↑_
