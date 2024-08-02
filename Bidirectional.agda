@@ -1,4 +1,4 @@
-module bidirectional where
+module Bidirectional where
 
 -- plfa bidirectional inference chapter
 
